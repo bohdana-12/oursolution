@@ -171,11 +171,6 @@ body {
     width: 214px;
     height: 60px;
     border: 1px solid #6157AB;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     color: #6157AB;
 }
 
@@ -183,11 +178,6 @@ body {
     width: 124px;
     height: 60px;
     border: 1px solid #AAB8BF;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     color: #7A858A;
 }
 
@@ -195,11 +185,6 @@ body {
     width: 213px;
     height: 60px;
     border: 1px solid #AAB8BF;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     color: #7A858A;
 }
 
@@ -207,11 +192,6 @@ body {
     width: 132px;
     height: 60px;
     border: 1px solid #AAB8BF;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     color: #7A858A;
 }
 
@@ -219,15 +199,51 @@ body {
     width: 204px;
     height: 60px;
     border: 1px solid #AAB8BF;
+    color: #7A858A;
+
+
+}
+
+.button-text {
+    cursor: pointer;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #7A858A;
 }
-.point{
+
+.point {
     margin: 30px 100px;
     display: flex;
     justify-content: space-between;
+
+}
+
+.section {
+    background: #F5F4F2;
+}
+.part1{
+    background: #FFFFFF;
+    margin: 60px 60px 0 60px;
+}
+.part2{
+    background: #E3E6F9;
+    margin: 0 60px 0 60px;
+}
+.part3{
+    background: #574D9C;
+    margin: 0 60px 60px 60px;
+}
+
+.footer{
+    background: #050302;
+    color:#FFFFFF;
 }
