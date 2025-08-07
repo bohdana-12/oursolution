@@ -1,18 +1,233 @@
-.title{
+body {
+    width: 1200px;
+    height: auto;
+    margin: 15px 0;
+
+}
+
+.header-content {
     display: flex;
-    justify-content:center;
-    padding: 50px;
-    font-size: 64px;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 70px;
+    color: #636769;
+    margin-top: 20px;
+}
+
+.navigation {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+
+.center {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.button {
+    width: 158px;
+    height: 54px;
+    background-color: #6157AB;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     color: #fff;
 }
 
-.tasks{
-    color: #fff;
+.title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 64px;
+    line-height: 70.4px;
+    letter-spacing: 1px;
+    color: #363B3D;
+    height: 212px;
+}
+
+.subtitle {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.05px;
+    color: #636769;
+}
+
+.main {
+    margin: 100px 60px;
+    width: 1200px;
+
+}
+
+.info-home {
+    position: relative;
     display: flex;
+    flex-direction: row;
+}
+
+.info {}
+
+.home {
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.top {
+    margin-top: 40px;
+}
+
+.learn {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    display: flex;
+    align-content: flex-start;
     flex-direction: column;
-    padding: 20px;
-    font-size: 30px;
+}
+
+.more {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #6157AB;
+}
+
+
+
+.featured {
+    margin-top: 119px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11px;
+    line-height: 16.5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #96979A;
+
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
     align-items: center;
 
+}
 
+.logo1 {
+    height: 18px;
+    width: 128px;
+}
+
+.logo2 {
+    width: 107px;
+    height: 107px;
+}
+
+.logo3 {
+    width: 144px;
+    height: 114px;
+}
+
+.logo4 {
+    width: 116px;
+    height: 116px;
+}
+
+.logo5 {
+    width: 115px;
+    height: 115px;
+}
+
+.empower {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 52px;
+    line-height: 64.8px;
+    letter-spacing: 0.68px;
+    text-align: center;
+    color: #333333;
+    ;
+}
+
+.Agents {
+    width: 214px;
+    height: 60px;
+    border: 1px solid #6157AB;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #6157AB;
+}
+
+.Buyers {
+    width: 124px;
+    height: 60px;
+    border: 1px solid #AAB8BF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #7A858A;
+}
+
+.Listing {
+    width: 213px;
+    height: 60px;
+    border: 1px solid #AAB8BF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #7A858A;
+}
+
+.Sellers {
+    width: 132px;
+    height: 60px;
+    border: 1px solid #AAB8BF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #7A858A;
+}
+
+.Loan {
+    width: 204px;
+    height: 60px;
+    border: 1px solid #AAB8BF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #7A858A;
+}
+.point{
+    margin: 30px 100px;
+    display: flex;
+    justify-content: space-between;
 }
